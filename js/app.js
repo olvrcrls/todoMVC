@@ -37,6 +37,7 @@
 
 			toggleTodo(todo) {
 				todo.completed = ! todo.completed;
+				this.save();
 			},
 
 			removeTodo(target) {
